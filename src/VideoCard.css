@@ -1,5 +1,4 @@
 .videoCard {
-	/* border: 1px solid white; */
 	margin-bottom: 1rem;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -27,6 +26,7 @@
 
 .videoCard_summary {
 	padding-left: 0.5rem;
+	width: 80%;
 }
 
 /* .videoCard:hover > .videoCard_summary {
@@ -40,9 +40,9 @@
 	to only appear when the videoCard is hovered over. */
 	display: flex;
 	justify-content: space-between;
-	background-color: red;
-	width: 100%;
+	width: 80%;
 	display: none;
+	font-size: 0.8rem;
 }
 
 .videoCard:hover > .videoCard_stats {

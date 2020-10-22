@@ -43,7 +43,7 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 					// Grab the movie.overview with the react-text-truncate tool
 					text={movie.overview}
 					// the property text stores the movie overview
-					line={3}
+					line={4}
 					// if the text is more than two lines
 					element="p"
 					// take the content of the p element
