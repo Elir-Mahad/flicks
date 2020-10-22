@@ -1,4 +1,5 @@
 .videoCard {
+	border: 1px dotted white;
 	color: white;
 	width: 340px;
 	height: 400px;
@@ -12,12 +13,8 @@
 
 .videoCard img {
 	height: 255px;
-	object-fit: contain;
+	object-fit: cover;
 	width: 320px;
-}
-
-.videoCard h2 {
-	padding-top: 10px;
 }
 
 .videoCard_stats {
@@ -25,6 +22,10 @@
 	contains the release date and movie votes.
 	It is hidden here because we want the stats
 	to only appear when the videoCard is hovered over. */
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
+	width: 100%;
 	display: none;
 }
 
@@ -34,5 +35,5 @@
 	and change the display rules of that element
 	from display:none
 	to display:inline */
-	display: inline;
+	display: inline-flex;
 }

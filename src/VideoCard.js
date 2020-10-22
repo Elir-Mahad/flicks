@@ -43,11 +43,13 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 			/>
 
 			<p className="videoCard_stats">
-				{movie.release_date || movie.first_air_date}
+				<p>{movie.release_date || movie.first_air_date}</p>
 				{/* Show the movie release date or first date that it was aired */}
-				<ThumbUpSharp />
-				{/* the ThumpUp icon was imported from material ui */}
-				{movie.vote_count}
+				<p>
+					<ThumbUpSharp />
+					{/* the ThumpUp icon was imported from material ui */}
+					{movie.vote_count}
+				</p>
 			</p>
 		</div>
 	);
