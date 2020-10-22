@@ -26,16 +26,25 @@ function Nav({ setSelectedOption }) {
 			<h2 onClick={() => setSelectedOption(requests.fetchRomanceMovies)}>
 				Romance
 			</h2>
-			<h2 onClick={() => setSelectedOption(requests.fetchMystery)}>
+			<h2 onClick={() => setSelectedOption(requests.fetchMysteryMovies)}>
 				{" "}
 				Mystery{" "}
 			</h2>
-			<h2 onClick={() => setSelectedOption(requests.fetchSciFi)}>Sci-fi</h2>
-			<h2 onClick={() => setSelectedOption(requests.fetchWestern)}>Western</h2>
-			<h2 onClick={() => setSelectedOption(requests.fetchAnimation)}>
+			<h2 onClick={() => setSelectedOption(requests.fetchSciFiMovies)}>
+				Sci-fi
+				{/*  */}
+			</h2>
+			<h2 onClick={() => setSelectedOption(requests.fetchWesternMovies)}>
+				Western
+				{/*  */}
+			</h2>
+			<h2 onClick={() => setSelectedOption(requests.fetchAnimationMovies)}>
 				Animation
 			</h2>
-			<h2 onClick={() => setSelectedOption(requests.fetchTv)}>Movie</h2>
+			<h2 onClick={() => setSelectedOption(requests.fetchTvMovies)}>
+				Movie
+				{/*  */}
+			</h2>
 		</div>
 	);
 }
