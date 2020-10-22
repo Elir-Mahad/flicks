@@ -1,0 +1,80 @@
+.header {
+	/* color: white; */
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	justify-content: space-between;
+	overflow-x: scroll;
+	/* This single line makes horizontal scrolling possible for the header.
+		Psuedo code would be: permisson granted to scroll horiontally on the x-axis.
+		Absolutely nuts.*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.header::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.header {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.header_icons {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+.header_icon {
+	display: flex;
+	flex-direction: column;
+	cursor: pointer;
+	width: 100px;
+}
+
+.header_icon p {
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: small;
+	margin-left: auto;
+	margin-right: auto;
+	display: none;
+	/* we made this display:none
+        because we will only display it
+        when its hovered over. */
+}
+
+.header_icon:hover p {
+	/* When we hover over the header_icon, 
+    target the p tag of that header_icon, 
+    change the display rule for it,
+    from display:none, to display:inline 
+    and make the display inline */
+	display: inline;
+}
+
+.header_icon--active p {
+	/*  This is for the home icon text. 
+		The text is always going to active and visible via the below display:inline-flex
+		We added the !important to make sure that no other rules override it*/
+	display: inline-flex !important;
+}
+
+.header_icon .MuiSvgIcon-root {
+	/* .MuiSvgIcon-root is the class name of the 
+    icons which are imported from material-ui.
+    To identify the class name, use inspector tools,
+    hover over elment, and it will show you the classnames of the element.  */
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-right and left auto, is a way to center an element. */
+	font-size: 30px;
+}
+
+.header img {
+	object-fit: contain;
+	height: 80px;
+}
