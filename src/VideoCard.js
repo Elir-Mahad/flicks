@@ -22,6 +22,12 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 				alt=""
 			/>
 
+			<h2>{movie.original_title || movie.original_name} </h2>
+			{/* movie.original_title and movie.original_name are two data points in the tmdb json
+				both of these data points output the movie name
+				this line says use movie.original_title to get the movie poster
+				or use movie.original_name to get the movie poster */}
+
 			<TextTruncate
 				// Grab the movie.overview with the react-text-truncate tool
 				text={movie.overview}
@@ -36,11 +42,6 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 				// in the href above you can insert the link to a url, where the reader can read more
 			/>
 
-			<h2>{movie.original_title || movie.original_name} </h2>
-			{/* movie.original_title and movie.original_name are two data points in the tmdb json
-				both of these data points output the movie name
-				this line says use movie.original_title to get the movie poster
-				or use movie.original_name to get the movie poster */}
 			<p className="videoCard_stats">
 				{movie.release_date || movie.first_air_date}
 				{/* Show the movie release date or first date that it was aired */}
