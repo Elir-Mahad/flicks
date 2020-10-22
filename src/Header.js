@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import flicks from "./Assets/flicks.png";
 
 // material ui icons
 import HomeIcon from "@material-ui/icons/Home";
@@ -41,9 +42,15 @@ function Header() {
 					<p>Account</p>
 				</div>
 			</div>
-			<img
+			{/* <img
 				src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
 				alt=""
+			/> */}
+			<img
+				className="logo_small"
+				src={flicks}
+				alt=""
+				//
 			/>
 		</div>
 	);

@@ -1,9 +1,10 @@
 .nav {
 	display: flex;
+	justify-content: center;
 	color: white;
 	overflow-x: scroll;
 	padding: 10px;
-	padding-left: 40px;
+	/* padding-left: 40px; */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */

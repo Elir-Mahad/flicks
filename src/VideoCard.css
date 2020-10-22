@@ -5,7 +5,8 @@
 	padding-bottom: 10px;
 	color: white;
 	width: 350px;
-	transition: transform 100ms;
+	transition: transform 300ms;
+	transition-timing-function: ease-in-out;
 }
 
 .videoCard:hover {
