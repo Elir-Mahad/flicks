@@ -22,26 +22,6 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 				alt=""
 			/>
 
-			<h2>{movie.original_title || movie.original_name} </h2>
-			{/* movie.original_title and movie.original_name are two data points in the tmdb json
-				both of these data points output the movie name
-				this line says use movie.original_title to get the movie poster
-				or use movie.original_name to get the movie poster */}
-
-			<TextTruncate
-				// Grab the movie.overview with the react-text-truncate tool
-				text={movie.overview}
-				// the property text stores the movie overview
-				line={4}
-				// if the text is more than two lines
-				element="p"
-				// take the content of the p element
-				truncateText="…"
-				// cut it of after 2 lines, and at the end of put ...
-				// textTruncateChild={<a href="#">Read more</a>}
-				// in the href above you can insert the link to a url, where the reader can read more
-			/>
-
 			<p className="videoCard_stats">
 				<p>{movie.release_date || movie.first_air_date}</p>
 				{/* Show the movie release date or first date that it was aired */}
@@ -51,6 +31,28 @@ const VideoCard = forwardRef(({ movie }, ref) => {
 					{movie.vote_count}
 				</p>
 			</p>
+
+			<h2>{movie.original_title || movie.original_name} </h2>
+			{/* movie.original_title and movie.original_name are two data points in the tmdb json
+				both of these data points output the movie name
+				this line says use movie.original_title to get the movie poster
+				or use movie.original_name to get the movie poster */}
+
+			<div className="videoCard_summary">
+				<TextTruncate
+					// Grab the movie.overview with the react-text-truncate tool
+					text={movie.overview}
+					// the property text stores the movie overview
+					line={3}
+					// if the text is more than two lines
+					element="p"
+					// take the content of the p element
+					truncateText="…"
+					// cut it of after 2 lines, and at the end of put ...
+					// textTruncateChild={<a href="#">Read more</a>}
+					// in the href above you can insert the link to a url, where the reader can read more
+				/>
+			</div>
 		</div>
 	);
 });
