@@ -26,6 +26,7 @@
 	opacity: 0.7;
 	transition: transform 50ms ease-out;
 	font-size: 1rem;
+	color: white;
 }
 
 .nav h2:hover {
