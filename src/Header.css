@@ -71,7 +71,8 @@
 	margin-left: auto;
 	margin-right: auto;
 	/* margin-right and left auto, is a way to center an element. */
-	font-size: 30px;
+	font-size: 25px;
+	color: #56ba49;
 }
 
 .header img {

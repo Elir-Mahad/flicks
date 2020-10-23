@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import flicks from "./Assets/flicks.png";
+import flickss from "./Assets/flickss.png";
 
 // material ui icons
 import HomeIcon from "@material-ui/icons/Home";
@@ -13,6 +13,12 @@ import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
 function Header() {
 	return (
 		<div className="header">
+			<img
+				className="logo_small"
+				src={flickss}
+				alt=""
+				//
+			/>
 			<div className="header_icons">
 				<div className="header_icon header_icon--active">
 					{/* The 'home' p tag, is always visible, 
@@ -42,16 +48,6 @@ function Header() {
 					<p>Account</p>
 				</div>
 			</div>
-			{/* <img
-				src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
-				alt=""
-			/> */}
-			<img
-				className="logo_small"
-				src={flicks}
-				alt=""
-				//
-			/>
 		</div>
 	);
 }
