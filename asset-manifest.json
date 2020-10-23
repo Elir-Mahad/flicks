@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/flicks/static/css/main.d69d1bcf.chunk.css",
+    "main.css": "/flicks/static/css/main.41e6205e.chunk.css",
     "main.js": "/flicks/static/js/main.8882c4a4.chunk.js",
     "main.js.map": "/flicks/static/js/main.8882c4a4.chunk.js.map",
     "runtime-main.js": "/flicks/static/js/runtime-main.3e32df2c.js",
@@ -8,16 +8,16 @@
     "static/js/2.4bdc67d1.chunk.js": "/flicks/static/js/2.4bdc67d1.chunk.js",
     "static/js/2.4bdc67d1.chunk.js.map": "/flicks/static/js/2.4bdc67d1.chunk.js.map",
     "index.html": "/flicks/index.html",
-    "precache-manifest.726f2c4d7f0b08f25d10eccb8fa69e72.js": "/flicks/precache-manifest.726f2c4d7f0b08f25d10eccb8fa69e72.js",
+    "precache-manifest.94801a32258e21ab634ba7f85f4aff2b.js": "/flicks/precache-manifest.94801a32258e21ab634ba7f85f4aff2b.js",
     "service-worker.js": "/flicks/service-worker.js",
-    "static/css/main.d69d1bcf.chunk.css.map": "/flicks/static/css/main.d69d1bcf.chunk.css.map",
+    "static/css/main.41e6205e.chunk.css.map": "/flicks/static/css/main.41e6205e.chunk.css.map",
     "static/js/2.4bdc67d1.chunk.js.LICENSE.txt": "/flicks/static/js/2.4bdc67d1.chunk.js.LICENSE.txt",
     "static/js/main.8882c4a4.chunk.js.LICENSE.txt": "/flicks/static/js/main.8882c4a4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3e32df2c.js",
     "static/js/2.4bdc67d1.chunk.js",
-    "static/css/main.d69d1bcf.chunk.css",
+    "static/css/main.41e6205e.chunk.css",
     "static/js/main.8882c4a4.chunk.js"
   ]
 }
