@@ -5,7 +5,6 @@ import flickss from "./Assets/flickss.png";
 // material ui icons
 import HomeIcon from "@material-ui/icons/Home";
 import FlashOnIcon from "@material-ui/icons/FlashOn";
-import LiveTvIcon from "@material-ui/icons/LiveTv";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import SearchIcon from "@material-ui/icons/Search";
 import PersonOutlineIcon from "@material-ui/icons/PersonOutline";
@@ -30,10 +29,6 @@ function Header() {
 				<div className="header_icon">
 					<FlashOnIcon />
 					<p>Trending</p>
-				</div>
-				<div className="header_icon">
-					<LiveTvIcon />
-					<p>Verified</p>
 				</div>
 				<div className="header_icon">
 					<VideoLibraryIcon />

@@ -1,6 +1,7 @@
 .nav {
 	display: flex;
 	justify-items: center;
+	margin-left: 1.7rem;
 	color: white;
 	overflow-x: scroll;
 	padding: 10px;
