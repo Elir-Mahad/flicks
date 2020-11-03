@@ -18,31 +18,31 @@ function Header() {
 				alt=""
 				//
 			/>
-			<div className="header_icons">
+			{/* <div className="header_icons">
 				<div className="header_icon header_icon--active">
-					{/* The 'home' p tag, is always visible, 
+					The 'home' p tag, is always visible, 
 					so we added the 'header_icon--active' 
-					to target it in the css */}
+					to target it in the css
 					<HomeIcon />
 					<p> Home </p>
 				</div>
-				<div className="header_icon">
+				<div className="header_icon ">
 					<FlashOnIcon />
 					<p>Trending</p>
 				</div>
-				<div className="header_icon">
+				<div className="header_icon remove_icon">
 					<VideoLibraryIcon />
 					<p>Collections</p>
 				</div>
-				<div className="header_icon">
+				<div className="header_icon remove_icon">
 					<SearchIcon />
 					<p>Search</p>
 				</div>
-				<div className="header_icon">
+				<div className="header_icon remove_icon">
 					<PersonOutlineIcon />
 					<p>Account</p>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 }
