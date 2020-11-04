@@ -3,7 +3,7 @@
 	color: white;
 	border-radius: 10px;
 	overflow-x: scroll;
-	padding: 10px;
+	padding: 4px;
 	width: 45rem;
 	display: block;
 	margin: auto;
@@ -22,11 +22,15 @@
 	scrollbar-width: none; /* Firefox */
 }
 
-.nav > .horizontal {
+.horizontal {
 	background-color: #c8ffc2;
-	height: 2.3rem;
-	border-radius: 10%;
+	height: 2.1rem;
+	border-radius: 40%;
 	padding: 5px;
+}
+
+.horizontal:hover {
+	transform: scale(1.2);
 }
 
 .nav h2 {
