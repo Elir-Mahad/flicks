@@ -52,3 +52,17 @@
 	opacity: 1;
 	transform: scale(1.2);
 }
+
+/* media */
+
+@media screen and (max-width: 768px) {
+	.nav {
+		width: 23rem;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.nav {
+		width: 18rem;
+	}
+}
