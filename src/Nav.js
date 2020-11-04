@@ -1,6 +1,7 @@
 import React from "react";
 import "./Nav.css";
 import requests from "./request.js";
+import horizontalscroll from "./Assets/horizontalscroll.png";
 
 //! End of imports
 
@@ -8,6 +9,13 @@ function Nav({ setSelectedOption }) {
 	//
 	return (
 		<div className="nav">
+			<img
+				//
+				className="horizontal"
+				src={horizontalscroll}
+				alt=""
+			/>
+
 			<h2 onClick={() => setSelectedOption(requests.fetchTrending)}>
 				Trending
 			</h2>
