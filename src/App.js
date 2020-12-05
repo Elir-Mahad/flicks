@@ -4,6 +4,7 @@ import Header from "./Header";
 import Nav from "./Nav";
 import Results from "./Results";
 import requests from "./request.js";
+import Footer from "./Footer";
 
 //! End of imports
 
@@ -25,6 +26,7 @@ function App() {
 			{/* We declare that we are going to run the setSelectedOption constant, through the nav component. Therefore the nav component, will be able to use it. */}
 			<Results selectedOption={selectedOption} />
 			{/* We declare that we are going to run the selectedOption constant, through the results component. Therefore the results component, will be able to use it. */}
+			<Footer />
 		</div>
 	);
 }
